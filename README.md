@@ -1,19 +1,11 @@
 # PBD-Platform-Biological-Divergence-
-Bulk RNA-seq versus single-cell RNA-seq cros-platform divergence and similarity analysis
 # Project Name
 
-![GitHub release](https://img.shields.io/github/v/release/USERNAME/REPO)
-![GitHub license](https://img.shields.io/github/license/USERNAME/REPO)
-![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO)
-![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPO)
-![Build](https://img.shields.io/github/actions/workflow/status/USERNAME/REPO/ci.yml)
-
-
-# Bulk vs Pseudo-bulk RNA-seq Integration and Platform Bias Analysis
+# Bulk RNA-seq versus single-cell RNA-seq cros-platform divergence and similarity analysis
 Author: Md Mamunur Rashid
-> This repository contains a complete, manuscript-ready R pipeline for integrating bulk RNA-seq and pseudo-bulk (single-nucleus RNA-seq–derived) expression data.
-The workflow systematically quantifies platform-driven technical bias, disentangles it from biological variation, and validates findings at the single-cell level.
 
+This repository contains a complete, manuscript-ready R pipeline for integrating bulk RNA-seq and pseudo-bulk (single-nucleus RNA-seq–derived) expression data.
+The workflow systematically quantifies platform-driven technical bias, disentangles it from biological variation, and validates findings at the single-cell level.
 The pipeline was developed and applied to human adipose tissue (hSAT and hVAT) data and is fully generalizable to other matched bulk–single-cell datasets.
 
 ---
@@ -23,10 +15,29 @@ The pipeline was developed and applied to human adipose tissue (hSAT and hVAT) d
 **Project Name** is a [brief explanation: e.g., *machine learning framework*, *bioinformatics pipeline*, *statistical method*] designed to:
 
 - ✔ Key feature or capability  
-- ✔ Another key feature  
-- ✔ Target use case (e.g., bulk vs single-cell, clinical prediction, simulation)
+- ✔ Target use case (e.g., bulk vs single-cell)
 
-This project is motivated by **[scientific / technical problem]** and aims to provide **[solution/advantage]**.
+- ✔ Key Objectives
+
+- ✔ Integrate matched bulk RNA-seq and pseudo-bulk RNA-seq data
+
+- ✔ Quantify platform bias vs biological variance using variance partitioning
+
+- ✔ Define a Platform Bias / Biological Divergence (PBD) score
+
+- ✔ Identify platform-sensitive genes using data-driven peak detection
+
+- ✔ Validate bias signatures using:
+
+- ✔ Correlation structure
+
+- ✔ PCA / sPCA
+
+- ✔ Differential expression (limma)
+
+- ✔ Gene set enrichment (GSVA)
+
+- ✔ Project platform-biased genes back to single-cell resolution
 
 ---
 
@@ -42,7 +53,7 @@ This project is motivated by **[scientific / technical problem]** and aims to pr
 ## 📦 Installation
 
 ### Requirements
-- R ≥ 4.2 / Python ≥ 3.9 *(adjust as needed)*
+- R ≥ 4.2 / *
 - Dependencies listed in `requirements.txt` / `DESCRIPTION`
 
 ### Install from GitHub
