@@ -9,11 +9,12 @@ Bulk RNA-seq versus single-cell RNA-seq cros-platform divergence and similarity 
 ![Build](https://img.shields.io/github/actions/workflow/status/USERNAME/REPO/ci.yml)
 
 
-> **Bulk vs Pseudo-bulk RNA-seq Integration and Platform Bias Analysis
-
+# Bulk vs Pseudo-bulk RNA-seq Integration and Platform Bias Analysis
 Author: Md Mamunur Rashid
-Last updated: 2025-08-28**  
-> A concise description of what this project does and why it matters.
+> This repository contains a complete, manuscript-ready R pipeline for integrating bulk RNA-seq and pseudo-bulk (single-nucleus RNA-seq–derived) expression data.
+The workflow systematically quantifies platform-driven technical bias, disentangles it from biological variation, and validates findings at the single-cell level.
+
+The pipeline was developed and applied to human adipose tissue (hSAT and hVAT) data and is fully generalizable to other matched bulk–single-cell datasets.
 
 ---
 
