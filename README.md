@@ -14,30 +14,13 @@ The pipeline was developed and applied to human adipose tissue (hSAT and hVAT) d
 
 **Project Name** is a [brief explanation: e.g., *machine learning framework*, *bioinformatics pipeline*, *statistical method*] designed to:
 
-- ✔ Key feature or capability  
-- ✔ Target use case (e.g., bulk vs single-cell)
-
 - ✔ Key Objectives
-
+- ✔ Target use case (e.g., bulk vs single-cell)
 - ✔ Integrate matched bulk RNA-seq and pseudo-bulk RNA-seq data
-
 - ✔ Quantify platform bias vs biological variance using variance partitioning
-
 - ✔ Define a Platform Bias / Biological Divergence (PBD) score
-
 - ✔ Identify platform-sensitive genes using data-driven peak detection
-
-- ✔ Validate bias signatures using:
-
-- ✔ Correlation structure
-
-- ✔ PCA / sPCA
-
-- ✔ Differential expression (limma)
-
-- ✔ Gene set enrichment (GSVA)
-
-- ✔ Project platform-biased genes back to single-cell resolution
+- ✔ Validate bias signatures assesment using: Correlation structure, PCA / sPCA, Differential expression (limma), Gene set enrichment (GSVA), mapping platform-biased genes back to single-cell resolution
 
 ---
 
