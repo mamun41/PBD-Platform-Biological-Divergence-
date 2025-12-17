@@ -7,9 +7,12 @@ Bulk RNA-seq versus single-cell RNA-seq cros-platform divergence and similarity 
 ![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO)
 ![GitHub issues](https://img.shields.io/github/issues/USERNAME/REPO)
 ![Build](https://img.shields.io/github/actions/workflow/status/USERNAME/REPO/ci.yml)
-![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxx-blue)
 
-> **One-line description**  
+
+> **Bulk vs Pseudo-bulk RNA-seq Integration and Platform Bias Analysis
+
+Author: Md Mamunur Rashid
+Last updated: 2025-08-28**  
 > A concise description of what this project does and why it matters.
 
 ---
