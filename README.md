@@ -100,9 +100,9 @@ The analysis generates a `/hAT_fig` directory containing:
 
 ---
   
-  ## ✉️ Contact
+## ✉️ Contact
   
-  **Author:** Md Mamunur Rashid
+**Author:** Md Mamunur Rashid
 
 **Project:** Platform Biological Divergence (PBD) Study
 
