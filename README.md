@@ -15,10 +15,10 @@ The datasets used in this study (Human Adipose Tissue - hAT) are publicly archiv
 * **snRNA-seq Data**: [https://doi.org/10.5281/zenodo.18000778](https://doi.org/10.5281/zenodo.18000778)
 * **Required Files**: To run the analysis, place the following files into a folder named `/hATdata` in your project root:
   * `sc_hSAT_seurat.rds`
-* `sc_hVAT_seurat.rds`
-* `bulk_count_data.rds`
-* `pb_count_data.rds`
-* `metaInfo.rds`
+  * `sc_hVAT_seurat.rds`
+  * `bulk_count_data.rds`
+  * `pb_count_data.rds`
+  * `metaInfo.rds`
 
 
 ---
