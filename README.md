@@ -32,6 +32,7 @@ The pipeline was developed and applied to human adipose tissue (hSAT and hVAT) d
 - 🧩 Feature 4 (e.g., modular design)
 
 ---
+snRNA-seq data can be obtained from: https://doi.org/10.5281/zenodo.18000778
 
 ## 📦 Installation
 
