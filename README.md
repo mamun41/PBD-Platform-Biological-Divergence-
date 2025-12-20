@@ -1,6 +1,6 @@
 # PBD: Platform Biological Divergence Analysis
 
-This repository provides the code and framework for identifying **Platform Biological Divergence (PBD)** in adipose tissue transcriptomics, specifically comparing Bulk RNA-seq and single-nucleus Pseudobulk.
+This repository provides the code and framework for identifying **Platform Biological Divergence (PBD)** in adipose tissue transcriptomics, specifically comparing Bulk RNA-seq and single-nucleus Pseudobulk RNA-seq data.
 
 ## 📊 Data Availability
 The snRNA-seq Seurat objects and count matrices used in this analysis are available at:
