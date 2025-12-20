@@ -1,25 +1,3 @@
-# PBD: Platform Biological Divergence Analysis
-
-This repository provides the code and framework for identifying **Platform Biological Divergence (PBD)** in adipose tissue transcriptomics, specifically comparing Bulk RNA-seq and single-nucleus Pseudobulk RNA-seq data.
-
-## 📊 Data Availability
-The snRNA-seq Seurat objects and count matrices used in this analysis are available at:
-**Zenodo**: [https://doi.org/10.5281/zenodo.18000778](https://doi.org/10.5281/zenodo.18000778)
-
-## 🚀 Execution
-1. Clone this repo.
-2. Download the data from Zenodo into a folder named `hATdata/`.
-3. Run `LMM_hAT_cStudy_nc.R`. The script will automatically install any missing R packages.
-
-## ✒️ Author
-**Md Mamunur Rashid** (2025)
-Email <mamun.stat92@gmail.com> 
-
-
-
-
-
-
 # PBD: Platform Biological Divergence Analysis 🧬
   
 ## 📌 Project Overview
@@ -41,7 +19,6 @@ The datasets used in this study (Human Adipose Tissue - hAT) are publicly archiv
 * `bulk_count_data.rds`
 * `pb_count_data.rds`
 * `metaInfo.rds`
-
 
 
 ---
@@ -72,7 +49,6 @@ Open the main analysis script `LMM_hAT_cStudy_nc.R` in RStudio.
 **Note on Dependencies**: The utility script `pbulk_nc_utils.R` is configured to **automatically detect and install** all missing R packages from both CRAN and Bioconductor upon execution. No manual installation is required.
 
 ---
-  
   ## 📈 Pipeline Workflow
   
 1. **Preprocessing**: Harmonization of common genes and normalization across platforms.
@@ -82,7 +58,6 @@ Open the main analysis script `LMM_hAT_cStudy_nc.R` in RStudio.
 5. **Validation**: Single-nucleus marker validation and volcano plot integration.
 
 ---
-  
 ## 📊 Expected Outputs
   
 The analysis generates a `/hAT_fig` directory containing:
@@ -93,7 +68,6 @@ The analysis generates a `/hAT_fig` directory containing:
 * **Variance Partitioning Boxes**: Comparison of variance proportions between Low and High PBD genes.
 
 ---
-  
   ## ✒️ Citation
   
   If you utilize this framework or data in your research, please cite:
@@ -101,8 +75,7 @@ The analysis generates a `/hAT_fig` directory containing:
 ---
   
 ## ✉️ Contact
-  
-**Author:** Md Mamunur Rashid
+**Author:** Md Mamunur Rashid <mamun.stat92@gmail.com>
 
 **Project:** Platform Biological Divergence (PBD) Study
 
