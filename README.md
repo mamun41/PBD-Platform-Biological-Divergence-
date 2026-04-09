@@ -1,10 +1,10 @@
-# PBD: Platform Biological Divergence Analysis 🧬
+# PGD: Platform Gene Divergence Analysis 🧬
   
 ## 📌 Project Overview
   
-The **PBD (Platform Biological Divergence)** framework is designed to quantify and visualize transcriptomic discrepancies between **Bulk RNA-seq** and **single-nucleus/cell Pseudobulk (PB)** data.
+The **PGD (Platform Gene Divergence)** framework is designed to quantify and visualize transcriptomic discrepancies between **Bulk RNA-seq** and **single-nucleus/cell Pseudobulk (PB)** data.
 
-In cross-platform studies, sequence technology driven signals often masks biological signals. PBD allows researchers to identify platform-sensitive genes and evaluate the structural concordance of their datasets using advanced statistical modeling, including **Variance Partitioning**, **Differential expression analysis** and **Sparse PCA**.
+In cross-platform studies, sequence technology-driven signals often mask biological signals. PGD allows researchers to identify highly platform-sensitive genes and evaluate the structural concordance of their datasets using advanced statistical modeling, including **Variance Partitioning**, **Differential expression analysis** and **Sparse PCA**.
 
 ---
   
@@ -26,7 +26,7 @@ The datasets used in this study (Human Adipose Tissue - hAT) are publicly archiv
 ## 🚀 Key Features
   
 * **Normalization**: Integrated TMM and Log2-CPM scaling for cross-platform comparison.
-* **PBD Scoring**: A metric derived from **Variance Partitioning** to separate platform bias from biological variance.
+* **PGD Scoring**: A metric derived from **Variance Partitioning** to separate platform bias from biological variance.
 * **Divergence Discovery**: Uses **Sparse PCA (sPCA)** to isolate primary platform effects.
 * **Interpretation**: Gene Ontology (GO) enrichment for divergent gene sets and Cell cluster mapping annotation.
 
@@ -63,9 +63,9 @@ Open the main analysis script `LMM_hAT_cStudy_nc.R` in RStudio.
 The analysis generates a `/hAT_fig` directory containing:
   
 * **PCA Plots**: Global structure comparison between platforms.
-* **PBD Volcano Plots**: Multi-method visualization of divergent genes.
+* **PGD Volcano Plots**: Multi-method visualization of divergent genes.
 * **GO Enrichment**: Functional pathways affected by platform bias.
-* **Variance Partitioning Boxes**: Comparison of variance proportions between Low and High PBD genes.
+* **Variance Partitioning Boxes**: Comparison of variance proportions between Low divergent genes (LDGs) and Highly divergent genes (HDGs) sets.
 
 ---
   ## ✒️ Citation
@@ -77,7 +77,7 @@ The analysis generates a `/hAT_fig` directory containing:
 ## ✉️ Contact
 **Author:** Md Mamunur Rashid <mamun.stat92@gmail.com>
 
-**Project:** Platform Biological Divergence (PBD) Study
+**Project:** Platform Gene Divergence (PGD) Study
 
 **Date:** December 2025
 
